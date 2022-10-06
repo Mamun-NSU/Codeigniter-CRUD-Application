@@ -14,7 +14,7 @@ class Car_model extends CI_model{
 		            ->get('car_models')
 		            ->result_array();
 
-		//SELECT * FROM car_models order by id ASC
+		//SELECT * FROM car_models order by id ASC (all)
 		return $result;            
 	}
 
